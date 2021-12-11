@@ -50,7 +50,6 @@ public class Main {
         //System.out.println(d10.Func1("C:\\users\\sirisha\\downloads\\d10_input.txt"));
         //System.out.println(d10.Func2("C:\\users\\sirisha\\downloads\\d10_input_tmp.txt"));
         //System.out.println(d10.Func2("C:\\users\\sirisha\\downloads\\d10_input.txt"));
-         */
 
 
         Day11 d11 = new Day11();
@@ -58,5 +57,12 @@ public class Main {
         //System.out.println(d11.Func1("C:\\users\\sirisha\\downloads\\d11_input.txt",100));
         //System.out.println(d11.Func2("C:\\users\\sirisha\\downloads\\d11_input_tmp.txt"));
         System.out.println(d11.Func2("C:\\users\\sirisha\\downloads\\d11_input.txt"));
+         */
+
+        Day12 d12 = new Day12();
+        //System.out.println(d12.Func1("C:\\users\\sirisha\\downloads\\d12_input_tmp.txt",100));
+        //System.out.println(d12.Func1("C:\\users\\sirisha\\downloads\\d12_input.txt",100));
+        //System.out.println(d12.Func2("C:\\users\\sirisha\\downloads\\d12_input_tmp.txt"));
+        System.out.println(d12.Func2("C:\\users\\sirisha\\downloads\\d12_input.txt"));
     }
 }
