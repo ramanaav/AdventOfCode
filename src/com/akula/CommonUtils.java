@@ -11,6 +11,16 @@ import java.util.Scanner;
 public class CommonUtils {
     public void CommonUtils() {}
 
+    public static void printMatrix(int[][] inputArray) {
+        for(int i = 0; i < inputArray.length; i++) {
+            for (int j = 0; j < inputArray[i].length; j++)
+                System.out.print(inputArray[i][j]+" ");
+            System.out.println("");
+        }
+
+        System.out.println("-------------------");
+    }
+
     public static ArrayList<String> readFromFile(String filename) {
 
         ArrayList<String> allLines = new ArrayList<String>();

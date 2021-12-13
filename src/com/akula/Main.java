@@ -57,12 +57,19 @@ public class Main {
         //System.out.println(d11.Func1("C:\\users\\sirisha\\downloads\\d11_input.txt",100));
         //System.out.println(d11.Func2("C:\\users\\sirisha\\downloads\\d11_input_tmp.txt"));
         System.out.println(d11.Func2("C:\\users\\sirisha\\downloads\\d11_input.txt"));
-         */
+
 
         Day12 d12 = new Day12();
-        //System.out.println(d12.Func1("C:\\users\\sirisha\\downloads\\d12_input_tmp.txt",100));
-        //System.out.println(d12.Func1("C:\\users\\sirisha\\downloads\\d12_input.txt",100));
+        //System.out.println(d12.Func1("C:\\users\\sirisha\\downloads\\d12_input_tmp.txt"));
+        //System.out.println(d12.Func1("C:\\users\\sirisha\\downloads\\d12_input.txt"));
         //System.out.println(d12.Func2("C:\\users\\sirisha\\downloads\\d12_input_tmp.txt"));
         System.out.println(d12.Func2("C:\\users\\sirisha\\downloads\\d12_input.txt"));
+        */
+
+        Day13 d13 = new Day13();
+        //System.out.println(d13.Func1("C:\\users\\sirisha\\downloads\\d13_input_tmp.txt"));
+        System.out.println(d13.Func1("C:\\users\\sirisha\\downloads\\d13_input.txt"));
+        //System.out.println(d13.Func2("C:\\users\\sirisha\\downloads\\d13_input_tmp.txt"));
+        //System.out.println(d13.Func2("C:\\users\\sirisha\\downloads\\d13_input.txt"));
     }
 }
