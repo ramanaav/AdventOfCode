@@ -11,6 +11,16 @@ import java.util.Scanner;
 public class CommonUtils {
     public void CommonUtils() {}
 
+    public static int coutNonZeroValues(int[][] inputMatrix) {
+        int num = 0;
+        for(int i = 0; i < inputMatrix.length; i++)
+            for(int j = 0; j < inputMatrix[0].length; j++)
+                if(inputMatrix[i][j] > 0)
+                    num++;
+
+        return num;
+    }
+
     public static void printMatrix(int[][] inputArray) {
         for(int i = 0; i < inputArray.length; i++) {
             for (int j = 0; j < inputArray[i].length; j++)
