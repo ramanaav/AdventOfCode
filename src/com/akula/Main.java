@@ -1,9 +1,5 @@
 package com.akula;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -75,12 +71,18 @@ public class Main {
         System.out.println(d13.Func1("C:\\users\\sirisha\\downloads\\d13_input.txt"));
         //System.out.println(d13.Func2("C:\\users\\sirisha\\downloads\\d13_input_tmp.txt"));
         //System.out.println(d13.Func2("C:\\users\\sirisha\\downloads\\d13_input.txt"));
-        */
+
 
         Day14 d14 = new Day14();
         System.out.println(d14.Func1("C:\\users\\sirisha\\downloads\\d14_input_tmp.txt",40));
         System.out.println(d14.Func1("C:\\users\\sirisha\\downloads\\d14_input.txt",40));
 
+*/
+        Day15 d15 = new Day15();
+        System.out.println(d15.Func1("C:\\users\\sirisha\\downloads\\d15_input_tmp.txt"));
+        System.out.println(d15.Func1("C:\\users\\sirisha\\downloads\\d15_input.txt"));
+        System.out.println(d15.Func2("C:\\users\\sirisha\\downloads\\d15_input_tmp.txt"));
+        System.out.println(d15.Func2("C:\\users\\sirisha\\downloads\\d15_input.txt"));
 
     }
 }
